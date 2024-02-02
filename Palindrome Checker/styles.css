@@ -1,0 +1,53 @@
+body{
+    font-family: monospace;
+    background-color: #464655;
+    font-size: larger;
+    color: #eddfef;
+}
+.container{
+    width: 450px;
+    height: auto;
+    padding: 10px;
+    display: flex;
+    text-align: center;
+    display: grid;
+    margin: auto;
+}
+#input-field{
+    margin: auto;
+    border-radius: 10px;
+    border: 2px solid #b7b6c1;
+    padding: 2px 10px 8px 10px;
+    background-color: #d5cfe1;
+    color: #464655;
+}
+#text-input{
+    width: 200px;
+    padding: 5px;
+    background-color: #eddfef;
+
+}
+#check-btn{
+    width: 75px;
+    background-color: #b7b6c1;
+    color: #464655;
+    display: inline-block;
+    padding: 5px;
+    border-radius: 50px;
+    transition-duration: 0.5ms;
+}
+#check-btn:hover{
+    background-color: #464655;
+    color: #b7b6c1;
+    box-shadow: 0px 3px 3px 0px #D5CFE1;
+}
+#header{
+    margin-top: 40%;
+}
+#cert-link{
+    color: #eddfef;
+    text-decoration: none;
+}
+#cert-link:hover{
+    color: #94958b;
+}
